@@ -128,6 +128,7 @@ $(document).ready(function (){
                     <h6>Supplier: ${product[i].sup_name}</h6>
                     <h6>Price: ${product[i].pro_price}</h6>
                     <h6>Quantity: ${product[i].quantity}</h6>
+                    <h6>Shop: ${product[i].shop_name}</h6>
                 </div>
                 <div style="float: right; margin-right: 1rem"><button class="btn btn-warning btn-delete-pro" data-pro-id="${product[i].pro_id}">Delete</button></div>
             </div>
