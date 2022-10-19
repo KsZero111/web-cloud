@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KsZero111/web-cloud"
+    "url": "git+https://github.com/KsZero111/web-cloud.git"
   },
   "author": "Khanh",
   "license": "ISC",
