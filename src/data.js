@@ -1,7 +1,7 @@
 const data = require('./database/connect')
 
 //get user
-// data.query('delete from users returning *')
+// data.query('delete from shop returning *')
 //     .then( result => console.log(result.rows) )
 
 
