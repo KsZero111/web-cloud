@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KsZero111/Cloud.git"
+    "url": "git+https://github.com/KsZero111/web-cloud"
   },
   "author": "Khanh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KsZero111/Cloud/issues"
+    "url": "https://github.com/KsZero111/web-cloud/issues"
   },
   "homepage": "",
   "dependencies": {
