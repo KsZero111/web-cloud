@@ -17,7 +17,7 @@ $(document).ready(function (){
                     if(data.shopId === null){
                         location.href = '/create-shop'
                     } else {
-                        location.href = '/'
+                        location.href = '/product'
                     }
                 } else {
                     animation()
