@@ -14,7 +14,7 @@ $(document).ready(function (){
             beforeSend: animation(),
             success: function (data){
                 if(data.status === 200){
-                    location.href = '/'
+                    location.href = '/product'
                 } else {
                     animation()
                     alert('Something wrong! ' + data.mess)
