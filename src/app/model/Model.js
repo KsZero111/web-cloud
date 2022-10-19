@@ -34,11 +34,14 @@ class Model{
                                       p.pro_name,
                                       p.pro_image,
                                       p.pro_price,
-                                      p.quantity
+                                      p.quantity,
+                                      sh.shop_name
                                from product as p,
                                     category as c,
-                                    supplier as s
+                                    supplier as s, 
+                                    shop as sh
                                where c.cate_id = p.cate_id
+                                 and p.shop_id = sh.shop_id
                                  and p.sup_id = s.sup_id
                                  and p.shop_id = ${shopId}
                                  and p.pro_name like '%${proName}%'`)
